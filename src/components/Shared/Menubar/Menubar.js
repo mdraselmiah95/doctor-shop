@@ -9,12 +9,21 @@ const Menubar = () => {
           <div className="row">
             <div className="col-md-2">
               <div className="logo-img">
-                <img src={logo} alt="" />
+                <img src={logo} alt="logo" />
+              </div>
+            </div>
+            <div className="col-md-10">
+              <div className="menu-items">
+                <ul className="d-flex align-items-end justify-content-end">
+                  <li className="items">Home</li>
+                  <li className="items">Shop</li>
+                  <li className="items">Contact</li>
+                  <li className="items me-4">About</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        r
       </div>
     </div>
   );
