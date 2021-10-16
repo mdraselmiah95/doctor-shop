@@ -3,7 +3,12 @@ import "./About.css";
 const About = () => {
   return (
     <div>
-      <h2>This is About</h2>
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-6"></div>
+          <div className="col-md-6"></div>
+        </div>
+      </div>
     </div>
   );
 };
