@@ -1,9 +1,9 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
 function App() {
   return (
     <div className="App">
-      <h2>This Doctor Shop</h2>
+      <h2 className="text-info">This Doctor Shop</h2>
     </div>
   );
 }
