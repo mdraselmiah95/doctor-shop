@@ -22,7 +22,7 @@ const About = () => {
                   />
                 </span>
               </h5>
-              <p>
+              <p className="text-start">
                 Pair large text with an image to give focus to your chosen
                 product, collection, or blog post. Add details on availability,
                 style, or even provide a review. Even if you can't afford to
