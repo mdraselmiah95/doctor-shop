@@ -3,7 +3,7 @@ import "./Services.css";
 const Services = () => {
   return (
     <div>
-      <div className="services container">
+      <div className="services container mt-5">
         <div className="top-part">
           <h5>
             <span>
@@ -18,6 +18,12 @@ const Services = () => {
               />
             </span>
           </h5>
+          <h1 className="services-title">How to Prevent Yourself</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean{" "}
+            <br />
+            ligula eget dolor. Aenean massa.
+          </p>
         </div>
       </div>
     </div>
