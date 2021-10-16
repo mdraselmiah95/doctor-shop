@@ -1,0 +1,22 @@
+.banner {
+  background-image: url("../../images/Banner&Background/banner.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+body {
+  overflow-x: hidden;
+}
+
+.title {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+}
+.title-sm {
+  font-weight: 500;
+  font-size: 28px;
+  color: white;
+}
