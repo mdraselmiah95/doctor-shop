@@ -1,9 +1,10 @@
 import React from "react";
+import Menubar from "../Shared/Menubar/Menubar";
 import "./Home.css";
 const Home = () => {
   return (
     <div>
-      <h2>This is Home.</h2>
+      <Menubar />
     </div>
   );
 };
